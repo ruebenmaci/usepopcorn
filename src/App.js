@@ -34,7 +34,6 @@ export default function App() {
 
   return (
     <>
-      <p>Hello World</p>
       <NavBar>
         <Search query={query} setQuery={setQuery} />
         <NumResults movies={movies} />
